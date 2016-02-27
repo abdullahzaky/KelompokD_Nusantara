@@ -11,7 +11,7 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
      color: white;
-    /*border: 3px solid #73AD21;*/ 
+    /*border: 3px solid #73AD21;*/
     transition: 1000ms;
 }
 
@@ -60,4 +60,13 @@ body{
 #navbar {
   float: left;
   width: 50%;
+}
+
+#fifth h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#fifth img {
+    width: 160px;
 }
