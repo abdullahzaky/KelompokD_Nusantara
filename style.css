@@ -62,15 +62,23 @@ body{
   width: 50%;
 }
 
+#fifth {
+    background-color: #F5F5F5
+}
+
 #fifth h1 {
     font-size: 48px;
     margin: 0;
     margin-bottom: 100px;
+    color: black;
 }
 
 #fifth img {
     width: 160px;
     border-radius: 50%;
+    -webkit-box-shadow: 4px 4px 10px 0px grey;
+    -moz-box-shadow: 4px 4px 10px 0px grey;
+    box-shadow: 4px 4px 10px 0px grey;
 }
 
 #fifth ul {
@@ -87,5 +95,5 @@ body{
 
 #fifth a {
     text-decoration: none;
-    color: white;
+    color: #424242;
 }
