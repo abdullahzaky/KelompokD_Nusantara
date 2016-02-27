@@ -65,8 +65,22 @@ body{
 #fifth h1 {
     font-size: 48px;
     margin: 0;
+    margin-bottom: 100px;
 }
 
 #fifth img {
     width: 160px;
+    border-radius: 50%;
+}
+
+#fifth ul {
+    list-style-type: none;
+    margin-top: 48px;
+}
+
+#fifth li {
+    display: inline-block;
+    width: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
