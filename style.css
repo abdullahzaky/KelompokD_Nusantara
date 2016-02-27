@@ -44,9 +44,14 @@ body{
 }
 
 #first .content h2{
-    font-size: 20px;
+    font-size: 40px;
     margin:0;
 }
+
+#first .content P{
+    font-size: 20px;
+}
+
 #first:hover{
     opacity: 0.5;
 }
