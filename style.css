@@ -5,6 +5,11 @@ body{
     margin: 0;
 }
 
+#second{
+  background-color: white;
+  height: 800px;
+}
+
 .section{
     width: inherit;
     height: inherit;
@@ -13,6 +18,16 @@ body{
     color: #4000ff;
     /*border: 3px solid #73AD21;*/
     transition: 1000ms;
+}
+
+.content {
+    margin: auto;
+    width: 90%;
+    height: inherit;
+    border: 3px solid blue;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px
 }
 
 h1, h2, h3{
@@ -24,28 +39,42 @@ h1, h2, h3{
 
 .head-section{
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
-#second{
-  background-color: white;
+.col-md-4{
+  position: relative;
+  float: left;
+  float: right;
+  width: 30%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-#third-pic{
-  width: 200px;
-  height: 200px;
-  background-color: black;
+
+
+/*@media only screen and (max-width: 768px) {
+  #second{
+  width:150px;
+  height:150px;
+  background-color: black
+  }
 }
 
-.content {
-    margin: auto;
-    width: 70%;
-    /*border: 3px solid blue;*/
-    padding: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px
+@media only screen and (max-width: 1024px) {
+  #second{
+  width:250px;
+  height:250px;
+  background-color: black
+  }
 }
 
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}*/
 
 /*Custom Style for each Section*/
 
