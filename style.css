@@ -48,8 +48,10 @@ body{
     margin:0;
 }
 
-#first .content P{
-    font-size: 20px;
+#first .content p{
+    font-size: 12pt;
+    width: 27%;
+    text-align: justify;
 }
 
 #first:hover{
