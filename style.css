@@ -10,7 +10,7 @@ body{
     height: inherit;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-     color: #4000ff;
+     color: white;
     /*border: 3px solid #73AD21;*/ 
     transition: 1000ms;
 }
@@ -25,13 +25,28 @@ body{
 }
 
 
+
 /*Custom Style for each Section*/
 
 /*----SECTION 1----*/
 #first{
     background-image: url(20_Bali_157140794-1680x1050.jpg);
 }
+#first .content h1{
+    font-size: 100px;
+    margin:0;
+}
 
+#first .content{
+    width: 90%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#first .content h2{
+    font-size: 20px;
+    margin:0;
+}
 #first:hover{
     opacity: 0.5;
 }
@@ -43,6 +58,6 @@ body{
   margin-left:  0%;
 }
 #navbar {
-  float: right;
-  width: 60%;
+  float: left;
+  width: 50%;
 }
