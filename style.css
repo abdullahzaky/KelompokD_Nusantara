@@ -37,3 +37,12 @@ body{
 }
 
 /*----SECTION 2----*/
+
+/*----SECTION 3----*/
+#third{
+  margin-left:  0%;
+}
+#navbar {
+  float: right;
+  width: 60%;
+}
