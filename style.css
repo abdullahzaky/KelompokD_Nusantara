@@ -22,8 +22,19 @@ h1, h2, h3{
   line-height: 1.3em;
 }
 
-#third{
+.head-section{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#second{
   background-color: white;
+}
+
+#third-pic{
+  width: 200px;
+  height: 200px;
+  background-color: black;
 }
 
 .content {
