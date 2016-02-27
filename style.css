@@ -7,14 +7,12 @@ body{
 
 #second{
   background-color: white;
-  height: 800px;
+  height: 750px;
 }
 
 .section{
     width: inherit;
     height: inherit;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
     color: #4000ff;
     /*border: 3px solid #73AD21;*/
     transition: 1000ms;
@@ -24,13 +22,20 @@ body{
     margin: auto;
     width: 90%;
     height: inherit;
-    border: 3px solid blue;
     padding: 30px;
-    padding-top: 100px;
-    padding-bottom: 100px
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-h1, h2, h3{
+h1{
+  color: black;
+  font-family: "PT Sans", Helvetica, sans-serif;
+  font-size: 35px;
+  letter-spacing: 10px;
+  line-height: 200%;
+}
+
+h3{
   color: black;
   font-family: "PT Sans", Helvetica, sans-serif;
   font-weight: 600;
@@ -45,11 +50,12 @@ h1, h2, h3{
 .col-md-4{
   position: relative;
   float: left;
-  float: right;
   width: 30%;
+  color: black;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "PT Sans", sans-serif;
 }
 
 
