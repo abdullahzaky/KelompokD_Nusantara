@@ -10,3 +10,4 @@ Benedictus Aldo     | 40854
 Shalahudin Al Ayyub | 42655
 Fata Azharuddin     | 42648
 Muhamad Hafiz Anas  | 42656
+Kharisma Prasetya   | 42061
