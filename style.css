@@ -122,3 +122,12 @@ h3{
 }
 
 /*----SECTION 2----*/
+
+/*----SECTION 3----*/
+#third{
+  margin-left:  0%;
+}
+#navbar {
+  float: left;
+  width: 50%;
+}
