@@ -18,7 +18,7 @@ body{
 .content {
     margin: auto;
     width: 70%;
-    /*border: 3px solid blue;*/
+    border: 3px solid blue;
     padding: 30px;
     padding-top: 100px;
     padding-bottom: 100px
@@ -41,6 +41,7 @@ body{
     width: 90%;
     padding-top: 150px;
     padding-bottom: 150px;
+    text-align: center;
 }
 
 #first .content h2{
@@ -71,6 +72,11 @@ body{
 
 #fifth {
     background-color: #F5F5F5
+}
+
+#fifth .content{
+    width: 90%;
+    text-align: center;
 }
 
 #fifth h1 {
