@@ -186,6 +186,16 @@ body{
   width: 50%;
 }
 
+#slider .content{
+    width: 95%;
+    background-color: #f9f9f9;
+}
+#slider .content h1{
+    text-align: center;
+    color: black; 
+    font-size: 38pt;
+}
+
 #fifth {
     background-color: white;
     padding-bottom: 16px;
