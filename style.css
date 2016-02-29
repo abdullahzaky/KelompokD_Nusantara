@@ -1,5 +1,10 @@
 /*Default Style*/
 
+@font-face {
+    font-family: Lobster;
+    src: url(font/Lobster.otf);
+}
+
 body{
     background-color: white;
     margin: 0;
@@ -11,7 +16,7 @@ body{
   height: 650px;
 }
 
-.section-about-us{
+#second .section{
     width: inherit;
     height: inherit;
     color: #4000ff;
@@ -19,26 +24,40 @@ body{
     transition: 1000ms;
 }
 
-.content-about-us {
+#second span{
+  color: red;
+  font-family: "Lobster", Helvetica;
+}
+
+#second .content {
     margin: auto;
-    width: 100%;
+    width: 90%;
     height: inherit;
     display: table;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
 }
 
-h1{
+#second h1{
   color: black;
   font-family: "Bebas Neue", Helvetica, sans-serif;
   font-size: 50px;
   letter-spacing: 0px;
   line-height: 200%;
   margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-img {
-    width: 50%;
+#second h3{
+  color: black;
+  font-family: "PT Sans", Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+#second img {
+    width: 60%;
     height: auto;
     display: table;
     margin: auto;
@@ -47,49 +66,33 @@ img {
     transition: all 1.5s ease-in-out;
 }
 
-img:hover {
-    width: 30%;
+#second img:hover {
+    width: 70%;
     height: auto;
     /*transform: scale(1.1);*/
     opacity: 1;
     filter: alpha(opacity=100);
 }
 
-h3{
-  color: black;
-  font-family: "PT Sans", Helvetica, sans-serif;
-  font-weight: 600;
-  line-height: 100%;
-}
-
-.head-section{
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.col-md-4{
-  display: inline-block;
+#second .col-md-4{
   margin: 0 auto;
   color: black;
   min-height: 1px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: "PT Sans", sans-serif;
   box-sizing: border-box;
-  display: table-cell; vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #about-us-1{
-  width: 20%;
-}
-
-#about-us-2{
-  width: 40%;
+  width: 50%;
   padding-left: 50px;
 }
 
-#about-us-3{
-  width: 40%;
+#about-us-2{
+  width: 50%;
 }
 
 
