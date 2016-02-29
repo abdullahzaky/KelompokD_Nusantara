@@ -1,3 +1,8 @@
+@font-face {
+    font-family: lobster;
+    src: url(font/Lobster.otf);
+}
+
 /*Default Style*/
 
 body{
@@ -35,6 +40,7 @@ body{
 #first .content h1{
     font-size: 100px;
     margin:0;
+    font-family:lobster;
 }
 
 #first .content{
@@ -60,6 +66,17 @@ body{
     text-align: justify;
 }
 
+/*----SECTION QUOTE----*/
+#quote{
+    background-color: white;
+}
+#quote .content{
+    text-align: center;
+    color: black;
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 /*----SECTION 2----*/
 
