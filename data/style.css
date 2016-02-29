@@ -3,6 +3,10 @@
     src: url(font/Lobster.otf);
 }
 
+@font-face {
+    font-family: NuevaStd;
+    src: url(font/NuevaStd-Regular.otf);
+}
 /*Default Style*/
 
 body{
