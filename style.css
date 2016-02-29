@@ -1,7 +1,7 @@
 /*Default Style*/
 
 body{
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body{
   height: 650px;
 }
 
-.section{
+.section-about-us{
     width: inherit;
     height: inherit;
     color: #4000ff;
@@ -19,9 +19,9 @@ body{
     transition: 1000ms;
 }
 
-.content {
+.content-about-us {
     margin: auto;
-    width: 90%;
+    width: 100%;
     height: inherit;
     display: table;
     margin: auto;
@@ -38,7 +38,7 @@ h1{
 }
 
 img {
-    width: 100%;
+    width: 25%;
     height: auto;
     display: table;
     margin: auto;
@@ -48,7 +48,7 @@ img {
 }
 
 img:hover {
-    width: 110%;
+    width: 30%;
     height: auto;
     /*transform: scale(1.1);*/
     opacity: 1;
@@ -70,7 +70,6 @@ h3{
 .col-md-4{
   display: inline-block;
   margin: 0 auto;
-  width: 33%;
   color: black;
   min-height: 1px;
   padding-left: 25px;
@@ -78,6 +77,19 @@ h3{
   font-family: "PT Sans", sans-serif;
   box-sizing: border-box;
   display: table-cell; vertical-align: middle;
+}
+
+#about-us-1{
+  width: 20%;
+}
+
+#about-us-2{
+  width: 40%;
+  padding-left: 50px;
+}
+
+#about-us-3{
+  width: 40%;
 }
 
 
