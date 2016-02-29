@@ -39,10 +39,11 @@ body{
 
 #first .content{
     width: 100%;
-    padding: 40px;
+    padding: 0px;
     padding-top: 150px;
     padding-bottom: 150px;
     transition: 1000ms;
+    text-align: center;
 }
 
 #first .content:hover{
