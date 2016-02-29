@@ -11,7 +11,7 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
      color: white;
-    /*border: 3px solid #73AD21;*/
+    border: 3px solid #73AD21;
     transition: 1000ms;
 }
 
@@ -58,7 +58,7 @@ body{
     font-size: 12pt;
     width: 27%;
     text-align: justify;
-}
+}   
 
 
 /*----SECTION 2----*/
@@ -73,12 +73,15 @@ body{
 }
 
 #fifth {
-    background-color: #F5F5F5
+    background-color: white;
+    padding-bottom: 16px;
 }
 
 #fifth .content{
     width: 80%;
     text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 #fifth h1 {
@@ -116,4 +119,16 @@ body{
 #fifth a {
     text-decoration: none;
     color: #424242;
+}
+
+#fifth hr {
+    border: 4px solid red;
+}
+
+#pendek {
+    width: 70%;
+}
+
+#panjang {
+    width: 90%;
 }
