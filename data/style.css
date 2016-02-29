@@ -58,7 +58,7 @@ body{
     font-size: 12pt;
     width: 27%;
     text-align: justify;
-}   
+}
 
 
 /*----SECTION 2----*/
@@ -107,6 +107,7 @@ body{
 #fifth ul {
     list-style-type: none;
     margin-top: 48px;
+    padding-left: 0px;
 }
 
 #fifth li {
