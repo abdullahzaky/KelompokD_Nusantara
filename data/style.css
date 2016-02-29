@@ -15,6 +15,7 @@
 /*Default Style*/
 
 body{
+    scroll-behavior: smooth;
     background-color: black;
     margin: 0;
 }
