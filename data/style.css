@@ -56,8 +56,8 @@ body{
     color: white;
     width: 100%;
     padding: 0px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 220px;
+    padding-bottom: 220px;
     transition: 1000ms;
     text-align: center;
 }
@@ -66,24 +66,43 @@ body{
     background-color: rgba(0,0,0,0.6);
 }
 
-#first .content nav{
+#navigation{
+    width: 100%;
     left: 0;
     top: 0;
     z-index: 1;
     position: fixed;
-    background-color: rgba(0,0,0,0.6);
-    padding: 10px;
+    background-color: rgba(255,255,255,0.6);
+    padding-left: 400px;
 }
 
-#first .content nav a{
+#navigation nav{
+    border: 0;
+    margin: 0;
+    transition: 1000ms;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
     text-decoration: none;
+    font-family: SegoeUI;
 }
 
-#first .content nav a:hover{
-    color: white;
-    text-decoration: underline;
+#navigation nav:hover{
+    background-color: black;
 }
+
+#navigation nav:hover a{
+    color: white;
+}
+
+#navigation nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
 #first .content h2{
     font-size: 40px;
     margin: 0;
