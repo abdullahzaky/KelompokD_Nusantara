@@ -28,14 +28,14 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
      color: black;
-    border: 3px solid #73AD21;
+    /*border: 3px solid #73AD21;*/
     transition: 1000ms;
 }
 
 .content {
     margin: auto;
     width: 70%;
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     padding: 30px;
     padding-top: 100px;
     padding-bottom: 100px
@@ -67,6 +67,25 @@ body{
 
 #first .content:hover{
     background-color: rgba(0,0,0,0.6);
+}
+
+#first .content nav{
+    left: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+}
+
+#first .content nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#first .content nav a:hover{
+    color: white;
+    text-decoration: underline;
 }
 #first .content h2{
     font-size: 40px;
@@ -202,4 +221,7 @@ body{
 
 #panjang {
     width: 90%;
+}
+.csslider1{
+    z-index: 0;
 }
