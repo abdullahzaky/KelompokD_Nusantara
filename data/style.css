@@ -12,11 +12,20 @@
     font-family: SegoeUI;
     src: url(font/segoeui.ttf);
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1539a79532998157c9870bac5f1cb77e7882aad6
 /*Default Style*/
 
 body{
     scroll-behavior: smooth;
+<<<<<<< HEAD
     background-color: black;
+=======
+    background-color: white;
+>>>>>>> 1539a79532998157c9870bac5f1cb77e7882aad6
     margin: 0;
 }
 
@@ -25,7 +34,11 @@ body{
     height: inherit;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
+<<<<<<< HEAD
      color: white;
+=======
+     color: black;
+>>>>>>> 1539a79532998157c9870bac5f1cb77e7882aad6
     border: 3px solid #73AD21;
     transition: 1000ms;
 }
@@ -45,7 +58,11 @@ body{
 
 /*----SECTION 1----*/
 #first{
+<<<<<<< HEAD
     background-image: url(20_Bali_157140794-1680x1050.jpg);
+=======
+    background-image: url(images/20_Bali_157140794-1680x1050.jpg);
+>>>>>>> 1539a79532998157c9870bac5f1cb77e7882aad6
 }
 #first .content h1{
     font-size: 100px;
@@ -54,6 +71,10 @@ body{
 }
 
 #first .content{
+<<<<<<< HEAD
+=======
+    color: white;
+>>>>>>> 1539a79532998157c9870bac5f1cb77e7882aad6
     width: 100%;
     padding: 0px;
     padding-top: 150px;
@@ -91,6 +112,7 @@ body{
     font-family: SegoeUI;
 }
 
+<<<<<<< HEAD
 /*----SECTION 2----*/
 #second{
   background-color: white;
@@ -195,11 +217,57 @@ body{
 #third{
   margin-left:  0%;
 }
+=======
+
+
+/*----SECTION 2----*/
+
+/*----SECTION 3----*/
+.wrap {
+    width: 100%;
+    overflow:auto;
+    padding:0px;
+}
+
+.section3{
+    padding-left:3%;
+    padding-right:3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: black;
+}
+.kolom1 {
+    float:left; 
+    width: 25%;
+    height: 200%;
+}
+
+.kolom2{
+    float:left;
+    width: 25%;    
+    height:200%;
+}
+
+.kolom3{
+    float: left;
+    height: 200%;
+    width: 25%;    
+}
+
+.kolom4{
+    float: left;
+    height: 200%;
+    width: 25%;    
+}
+/*batas section 3*/
+
+>>>>>>> 1539a79532998157c9870bac5f1cb77e7882aad6
 #navbar {
   float: left;
   width: 50%;
 }
 
+<<<<<<< HEAD
 #slider .content{
     width: 95%;
     background-color: #f9f9f9;
@@ -210,6 +278,8 @@ body{
     font-size: 38pt;
 }
 
+=======
+>>>>>>> 1539a79532998157c9870bac5f1cb77e7882aad6
 #fifth {
     background-color: white;
     padding-bottom: 16px;
