@@ -76,7 +76,11 @@ body{
     padding-left: 400px;
 }
 
-#navigation li{
+#navigation nav,ul{
+    margin: 0;
+}
+
+#navigation nav ul li{
     border: 0;
     margin: 0;
     transition: 1000ms;
@@ -89,16 +93,18 @@ body{
     font-family: SegoeUI;
 }
 
+
+
 /*#navigation li {
     list-style: none;
     display: inline-block;
 }*/
 
-#navigation nav:hover{
+#navigation nav ul li:hover{
     background-color: black;
 }
 
-#navigation nav:hover a{
+#navigation nav ul li:hover a{
     color: white;
 }
 
