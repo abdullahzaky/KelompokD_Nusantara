@@ -312,6 +312,7 @@ body{
     -webkit-box-shadow: 4px 4px 10px 0px grey;
     -moz-box-shadow: 4px 4px 10px 0px grey;
     box-shadow: 4px 4px 10px 0px grey;
+    transition: all 0.5s ease-in-out;
 }
 
 #fifth ul {
@@ -346,3 +347,10 @@ body{
 .csslider1{
     z-index: 0;
 }
+#fifth #profil:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
