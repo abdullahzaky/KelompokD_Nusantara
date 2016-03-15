@@ -269,25 +269,30 @@ body{
     padding-bottom: 3%;
     color: black;
 }
-.kolom1 {
+
+.section3 #kolom4 p{
+  color: red;
+}
+
+#kolom1{
     float:left;
     width: 25%;
     height: 200%;
 }
 
-.kolom2{
+#kolom2{
     float:left;
     width: 25%;
     height:200%;
 }
 
-.kolom3{
+#kolom3{
     float: left;
     height: 200%;
     width: 25%;
 }
 
-.kolom4{
+#kolom4{
     float: left;
     height: 200%;
     width: 25%;
@@ -303,8 +308,8 @@ body{
 }
 
 #fourth .content h1{
-	text-align: center; 
-	color: black; 
+	text-align: center;
+	color: black;
 	font-size: 38pt;
 }
 
@@ -465,4 +470,20 @@ body{
   -ms-transform: translateY(-15px);
   -webkit-transform: translateY(-15px);
   transform: translateY(-15px);
+}
+
+.scrollToTop{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.8) url('images/cd-top-arrow.svg') no-repeat center 50%;
+}
+.scrollToTop:hover{
+	text-decoration:none;
 }
