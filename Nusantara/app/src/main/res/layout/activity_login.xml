@@ -16,10 +16,10 @@
         android:animateLayoutChanges="true">
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
             android:id="@+id/logo"
-            android:src="@drawable/ic_home_white_24dp"
+            android:src="@drawable/splash1"
             android:contentDescription="@string/logo_apps_desc"
             android:layout_marginBottom="24dp"
             android:layout_centerHorizontal="true"/>
