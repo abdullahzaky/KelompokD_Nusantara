@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
         try {
             tabLayout.getTabAt(0).setIcon(R.drawable.ic_home_white_24dp);
-            tabLayout.getTabAt(1).setIcon(R.drawable.ic_account_circle_black_24dp);
-            tabLayout.getTabAt(2).setIcon(R.drawable.ic_more_horiz_black_24dp);
+            tabLayout.getTabAt(1).setIcon(R.drawable.ic_account_circle_white_24dp);
+            tabLayout.getTabAt(2).setIcon(R.drawable.ic_more_horiz_white_24dp);
         }catch (Exception e){
             e.printStackTrace();
         }

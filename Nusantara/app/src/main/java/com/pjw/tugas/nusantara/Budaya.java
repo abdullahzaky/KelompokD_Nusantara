@@ -10,18 +10,24 @@ public class Budaya {
     private String nama;
     private String lokasi;
     private Bitmap user;
+    private Bitmap image;
     private int rating;
     private int komentar;
     private int share;
 
-    public Budaya(int id, String nama, String lokasi, Bitmap user, int rating, int komentar, int share) {
+    public Budaya(int id, String nama, String lokasi, Bitmap user, Bitmap image, int rating, int komentar, int share) {
         this.id = id;
         this.nama = nama;
         this.lokasi = lokasi;
         this.user = user;
+        this.image = image;
         this.rating = rating;
         this.komentar = komentar;
         this.share = share;
+    }
+
+    public Bitmap getImage() {
+        return image;
     }
 
     public String getNama() {
