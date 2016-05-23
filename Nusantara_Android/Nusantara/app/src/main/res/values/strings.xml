@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Nusantara</string>
+    <string name="action_settings">Settings</string>
+    <string name="contoh_nama">Budi Santosa</string>
+    <string name="contoh_nohp">085123543123</string>
+    <string name="contoh_waktu">10.30 | Minggu,19 Maret 2016</string>
+    <string name="contoh_status">Terisi</string>
+    <string name="contoh_alamat">Menjing, Donohudan, Ngemplak, Boyolali</string>
+    <string name="contoh_waktu_short">10.30 | 19/03/16</string>
+    <string name="pw">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="logo_apps_desc">Logo Apps</string>
+    <string name="title_activity_product">ProductActivity</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="id_contoh">ID | 001</string>
+    <string name="contoh_date">Minggu, 19 Maret 2016</string>
+    <string name="contoh_langganan">10 bulan</string>
+    <string name="sample_budaya">Candi Prambanan</string>
+    <string name="sample_lokasi">Sleman, Yogyakarta</string>
+</resources>
