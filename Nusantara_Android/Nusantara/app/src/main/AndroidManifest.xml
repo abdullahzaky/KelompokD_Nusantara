@@ -21,7 +21,6 @@
             </intent-filter>
         </activity>
 
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/server_client_id" />
@@ -33,6 +32,15 @@
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".InputActivity"
+            android:label="@string/title_activity_input"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pjw.tugas.nusantara.MainActivity" />
         </activity>
     </application>
 
